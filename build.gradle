@@ -62,7 +62,7 @@ minecraft {
         // applies to all the run configs below
         configureEach {
             workingDirectory project.file('run')
-            environment 'assets_root', file('E:/EMAG/MC/我的世界/.minecraft/assets').absolutePath
+            environment 'assets_root', file('E:/EMAG/MC/resources/1.20.1/assets').absolutePath
             // Recommended logging data for a userdev environment
             // The markers can be added/remove as needed separated by commas.
             // "SCAN": For mods scan.
