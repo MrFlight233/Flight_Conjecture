@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "flight_conjecture:block/industrial_processing_unit"},
+    "facing=south": { "model": "flight_conjecture:block/industrial_processing_unit", "y": 180},
+    "facing=west": { "model": "flight_conjecture:block/industrial_processing_unit", "y": 270 },
+    "facing=east": { "model": "flight_conjecture:block/industrial_processing_unit", "y": 90 }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "north": "flight_conjecture:block/machine/industrial_processing_unit_idle",
+    "south": "flight_conjecture:block/machine/machine_back",
+    "east":  "flight_conjecture:block/machine/machine_left",
+    "west":  "flight_conjecture:block/machine/machine_right",
+    "up":    "flight_conjecture:block/machine/machine_top",
+    "down":  "flight_conjecture:block/machine/machine_bottom",
+    "particle": "flight_conjecture:block/machine/industrial_processing_unit_idle"
+  }
+}

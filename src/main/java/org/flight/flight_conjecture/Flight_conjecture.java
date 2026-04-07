@@ -6,9 +6,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import org.flight.flight_conjecture.init.ModBlocks;
-import org.flight.flight_conjecture.init.ModCreativeModeTabs;
-import org.flight.flight_conjecture.init.ModItems;
+import org.flight.flight_conjecture.init.*;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -27,6 +25,8 @@ public class Flight_conjecture {
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+        ModMenuTypes.register(modEventBus);
 
         //end region
 
